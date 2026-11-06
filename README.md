@@ -27,7 +27,10 @@ Beim ersten Start zeigt Windows eventuell „Der Computer wurde durch Windows ge
 
 1. In OBS unter **Quellen** auf **+** klicken und **Browser** hinzufügen.
 2. Die Adresse aus dem Manager (Bereich *OBS-Quelle*) als URL einfügen.
-3. Die Option **„Audio über OBS steuern“** ausgeschaltet lassen, sonst bleibt die Sprachausgabe stumm.
+3. In den Eigenschaften der Quelle **„Browser bei Szenenaktivierung aktualisieren“** anhaken. Dann lädt OBS die Quelle bei jedem Szenenwechsel neu, auch wenn OBS vor dem Programm gestartet wurde.
+4. Die Option **„Audio über OBS steuern“** ausgeschaltet lassen, sonst bleibt die Sprachausgabe stumm.
+
+Bleibt der Chat in OBS leer, klicke in den Eigenschaften der Quelle unten auf **„Cache der aktuellen Seite aktualisieren“**.
 
 ## Updates
 
